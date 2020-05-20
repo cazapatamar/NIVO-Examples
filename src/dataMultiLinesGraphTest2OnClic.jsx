@@ -1,4 +1,4 @@
-const dataLines = [
+const dataMultiLinesGraphTest2OnClic = [
   {
     id: 'Páramo',
     color: 'hsl(190, 70%, 50%)',
@@ -79,4 +79,4 @@ const dataLines = [
   },
 ];
 
-export default dataLines;
+export default dataMultiLinesGraphTest2OnClic;

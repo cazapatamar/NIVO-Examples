@@ -1,7 +1,31 @@
-const dataLines = [
+const dataLinesMultiLinesGraph = [
+  {
+    id: 'Área total',
+    data: [
+      {
+        x: '1970',
+        y: 75,
+      },
+      {
+        x: '1990',
+        y: 65,
+      },
+      {
+        x: '2000',
+        y: 68,
+      },
+      {
+        x: '2015',
+        y: 89,
+      },
+      {
+        x: '2018',
+        y: 80,
+      },
+    ],
+  },
   {
     id: 'Páramo',
-    color: 'hsl(190, 70%, 50%)',
     data: [
       {
         x: '1970',
@@ -27,7 +51,6 @@ const dataLines = [
   },
   {
     id: 'Humedales',
-    color: 'hsl(161, 70%, 50%)',
     data: [
       {
         x: '1970',
@@ -53,7 +76,6 @@ const dataLines = [
   },
   {
     id: 'Bosques Secos',
-    color: 'hsl(161, 70%, 50%)',
     data: [
       {
         x: '1970',
@@ -79,4 +101,4 @@ const dataLines = [
   },
 ];
 
-export default dataLines;
+export default dataLinesMultiLinesGraph;
