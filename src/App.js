@@ -149,7 +149,6 @@ function App() {
         ]}
       />
     </div>
-
     <div style={{ height: '400px', width: '750px' }}>
       <h2>
         Sección 3: Persistencia de la huella humana
@@ -249,7 +248,6 @@ function App() {
     />
 )
     </div>
-
     <div style={{ height: '400px', width: '750px' }}>
       <h2>
         Compensaciones: Gráfico de puntos
