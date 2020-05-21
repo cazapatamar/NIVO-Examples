@@ -3,6 +3,8 @@ import React from 'react';
 
 import MultiLinesGraph from './MultiLinesGraph';
 import MultiLinesGraphTest1OnClic from './MultiLinesGraphTest1OnClic';
+import MultiLinesGraphTest2OnClic from './MultiLinesGraphTest2OnClic';
+import MultiLinesGraphTest3OnClic from './MultiLinesGraphTest3OnClic';
 import MultiLinesGraphMockup from './MultiLinesGraphMockup';
 import DotsGraphMockUp from './DotsGraphMockUp';
 
@@ -19,6 +21,10 @@ function App() {
     <MultiLinesGraphMockup />
 
     <MultiLinesGraphTest1OnClic />
+
+    <MultiLinesGraphTest2OnClic />
+
+    <MultiLinesGraphTest3OnClic />
 
     <DotsGraphMockUp />
     

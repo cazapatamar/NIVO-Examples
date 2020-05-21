@@ -36,7 +36,7 @@ const MultiLinesGraphTest2OnClic = () => (
             "tickRotation": 0,
             "legend": "transportation",
             "legendOffset": 36,
-            "legendPosition": "center"
+            "legendPosition": "middle"
         }}
         axisLeft={{
             "orient": "left",
@@ -45,7 +45,7 @@ const MultiLinesGraphTest2OnClic = () => (
             "tickRotation": 0,
             "legend": "count",
             "legendOffset": -40,
-            "legendPosition": "center"
+            "legendPosition": "middle"
         }}
         dotSize={10}
         dotColor="inherit:darker(0.3)"
@@ -55,8 +55,8 @@ const MultiLinesGraphTest2OnClic = () => (
         dotLabel="y"
         dotLabelYOffset={-12}
         animate={true}
-        motionStiffness={motion_stiffness}
-        motionDamping={motion_damping}
+        motionStiffness={150}
+        motionDamping={15}
         legends={[
             {
                 "anchor": "bottom-right",
