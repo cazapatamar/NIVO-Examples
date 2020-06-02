@@ -38,7 +38,7 @@ export const formatValue = value => {
 
 const MultiLinesGraphTest3OnClic = () => (
 
-    <div style={{ height: 490 }}>
+    <div style={{ height: 490, display: 'none' }}>
         <h2>
             Test Lines 3 - OnClic: 
         </h2>

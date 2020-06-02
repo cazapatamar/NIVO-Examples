@@ -3,7 +3,7 @@ import { ResponsiveScatterPlot } from '@nivo/scatterplot'
 import dataDots from './dataDots';
 
 const DotsGraphMockUp = () => (
-  <div style={{ height: '400px', width: '750px', display: 'none'}}>
+  <div style={{ height: '400px', width: '750px', display: 'block'}}>
       <h2>
         DotsGraphMockUp : First MockUp
       </h2>

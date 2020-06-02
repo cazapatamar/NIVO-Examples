@@ -7,6 +7,7 @@ import MultiLinesGraphTest2OnClic from './MultiLinesGraphTest2OnClic';
 import MultiLinesGraphTest3OnClic from './MultiLinesGraphTest3OnClic';
 import MultiLinesGraphMockup from './MultiLinesGraphMockup';
 import DotsGraphMockUp from './DotsGraphMockUp';
+import DotsGraphMockUp2PointSize from './DotsGraphMockUp2PointSize';
 
 // import { LegendMouseHandlerData } from '@nivo/legends';
 
@@ -27,6 +28,8 @@ function App() {
     <MultiLinesGraphTest3OnClic />
 
     <DotsGraphMockUp />
+
+    <DotsGraphMockUp2PointSize />
     
   </div>
   );

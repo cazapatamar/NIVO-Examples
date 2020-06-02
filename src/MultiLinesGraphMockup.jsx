@@ -5,7 +5,7 @@ import dataLines from './dataLines';
 
 const MultiLinesGraphMockup = () => (
   
-  <div style={{ height: '490px' }}>
+  <div style={{ height: '490px', display: 'none' }}>
       <h2>
         MultiLinesGraphMockup: First MockUp
       </h2>

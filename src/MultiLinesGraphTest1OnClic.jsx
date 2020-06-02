@@ -3,7 +3,7 @@ import { ResponsiveLine } from '@nivo/line';
 
 const MultiLinesGraphTest1OnClic = () => (
 
-  <div style={{ height: '490px' }}>
+  <div style={{ height: '490px', display: 'none' }}>
       
       <h2>
         Test Lines 1 - OnClic: 

@@ -4,7 +4,7 @@ import dataMultiLinesGraphTest2OnClic from './dataMultiLinesGraphTest2OnClic';
 
 const MultiLinesGraphTest2OnClic = () => (
 
-  <div style={{ height: '490px', width: '750px' }}>
+  <div style={{ height: '490px', width: '750px', display: 'none' }}>
       
       <h2>
         Test Lines 2 - OnClic: 
